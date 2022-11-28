@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{13110DBD-068B-4A73-85FB-756D8CCE486E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{7A3DC407-E6C6-421F-81CA-5E7F44EC2E24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{AE478D7A-BE7D-48AD-BDCF-432172EE997A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FenySoft.Remote", "Modules\FenySoft.Remote\FenySoft.Remote.csproj", "{206B9D29-241D-46CB-9743-81B61F493814}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{4A7256D7-4F4E-47D6-9E0E-929FD9CA9D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206B9D29-241D-46CB-9743-81B61F493814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206B9D29-241D-46CB-9743-81B61F493814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206B9D29-241D-46CB-9743-81B61F493814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206B9D29-241D-46CB-9743-81B61F493814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{206B9D29-241D-46CB-9743-81B61F493814} = {7A3DC407-E6C6-421F-81CA-5E7F44EC2E24}
+	EndGlobalSection
+EndGlobal
